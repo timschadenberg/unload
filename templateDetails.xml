@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<install version="2.5" type="template" client="site">
+    <name>Golem</name>
+    <creationDate>07-02-2012</creationDate>
+    <author>Tim Schadenberg</author>
+    <authorEmail>tim.schadenberg@gmail.com</authorEmail>
+    <authorUrl>http://www.unload.nl</authorUrl>
+    <copyright>Copyright (C) 2013 Joom-ice</copyright>
+    <version>1.0</version>
+    <description>Base template for joomla web development.</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>css</folder>
+        <folder>font</folder>
+        <folder>hmtl</folder>
+        <folder>img</folder>
+        <folder>js</folder>
+    </files>
+    <positions>
+        <position>navigation</position>
+        <position>breadcrumbs</position>
+        <position>featured</position>
+        <position>sidebar</position>
+        <position>widget1</position>
+        <position>widget2</position>
+        <position>widget3</position>
+        <position>footer</position>
+    </positions>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="" type="" default="" label="" description="">
+                    <option value="1">On</option>
+                    <option value="0">Off</option>
+                </field>
+                <field name="" type="" default="" label="e" description="" />
+            </fieldset>
+        </fields>
+    </config>
+</install>
